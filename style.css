@@ -15,6 +15,8 @@ html {
     align-items: center;
     background-color: black;
     padding: 10px 0;
+    margin-top: 0;
+    z-index: 2;
 }
 
 #banner #content {
@@ -47,6 +49,7 @@ li a {
 }
 
 #banner {
+    position: relative;
     display: flex;
     background-image: url(/images/img-mission-background.jpg);
     height: 700px;
@@ -54,10 +57,10 @@ li a {
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0 auto;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    top: auto;
 }
 
 #banner-text {
@@ -66,7 +69,7 @@ li a {
 }
 
 #content {
-    margin: 0 auto;
+    margin: 75px auto;
     text-align: center;
     width: 1000px;
 }
@@ -95,4 +98,29 @@ figcaption {
     justify-content: center;
     max-width: 1200px;
     flex-wrap: wrap
+}
+
+#location-container {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+#location {
+    background-image: url(/images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+#location h3 {
+    text-align: center;
+    margin: 75px auto;
+    margin-top: 10%;
+}
+
+#location {
+    display: flex;
+    flex-direction: row;
 }
