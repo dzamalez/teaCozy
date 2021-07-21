@@ -29,6 +29,7 @@ html {
 
 ul {
     list-style-type: none;
+    margin: auto 0;
 }
 
 #buttons li {
@@ -47,8 +48,7 @@ li a {
     display: flex;
     background-image: url(/images/img-mission-background.jpg);
     height: 700px;
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0 auto;
@@ -58,13 +58,20 @@ li a {
     flex-direction: column;
 }
 
-#banner h2 h4{
+#banner-text {
     text-shadow: black 1px 0 10px;
+    text-align: center;
 }
 
 #content {
+    margin: 0 auto;
     text-align: center;
     width: 1000px;
+}
+
+.image {
+    padding: 0;
+    margin: 10px;
 }
 
 .image img {
@@ -83,7 +90,7 @@ figcaption {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     max-width: 1200px;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
