@@ -101,17 +101,16 @@ figcaption {
 }
 
 #location-container {
-    width: 100%;
-    height: auto;
-    justify-content: center;
-}
-#location {
     background-image: url(/images/img-locations-background.jpg);
-    height: 500px;
+    min-height: 500px;
     width: 1200px;
     background-repeat: no-repeat;
     margin: 0 auto;
+    padding-bottom: 10px;
     background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #location h3 {
@@ -123,4 +122,45 @@ figcaption {
 #location {
     display: flex;
     flex-direction: row;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+#downtown {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+
+#east-bayside {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 0 40px;
+}
+
+#oakdale {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+
+#contact {
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#footer {
+    text-align: left;
+    margin: 0 0 0 20px;
 }
